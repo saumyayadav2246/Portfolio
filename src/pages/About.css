@@ -1,0 +1,87 @@
+.about {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-family: var(--font-hero);
+  font-weight: 800;
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: var(--secondary);
+}
+
+.about-content p {
+  margin-bottom: 1.25rem;
+  line-height: 1.7;
+  color: var(--text-on-primary);
+}
+
+.about-content strong {
+  color: var(--secondary);
+}
+
+.about-section {
+  margin-top: 2rem;
+}
+
+.about-section h2 {
+  font-family: var(--font-hero);
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0 0 0.75rem;
+  color: var(--secondary);
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-section li {
+  padding: 0.4rem 0;
+  color: var(--text-on-primary);
+}
+
+.about-skills {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--border);
+}
+
+.about-skills h2 {
+  font-family: var(--font-hero);
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: var(--secondary);
+}
+
+.about-skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-skills li {
+  padding: 0.4rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--text-on-primary);
+}
+
+.about-skills li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  font-family: var(--font-hero);
+  color: var(--secondary);
+  font-weight: 700;
+}
